@@ -277,7 +277,8 @@ Built by [johaankjis](https://github.com/johaankjis)
 
 ## 📝 Notes
 
-- The application uses Next.js 16 with the App Router
+- The application uses Next.js 16 with the App Router (canary/pre-release version)
+- React 19.2.0 is used (latest version at project creation)
 - React Server Components are utilized where appropriate
 - All API routes are serverless functions
 - The UI is fully responsive and accessible
