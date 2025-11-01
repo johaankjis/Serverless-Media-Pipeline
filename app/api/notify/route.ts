@@ -23,7 +23,7 @@ export async function POST(request: NextRequest) {
 
     notifications.push(notification)
 
-    console.log("[v0] Notification sent:", notification)
+    console.log("[] Notification sent:", notification)
 
     // In production, this would send email/webhook
     // await sendEmail({ ... })
@@ -34,7 +34,7 @@ export async function POST(request: NextRequest) {
       notification,
     })
   } catch (error) {
-    console.error("[v0] Notification error:", error)
+    console.error("[] Notification error:", error)
     return NextResponse.json({ error: "Notification failed" }, { status: 500 })
   }
 }
